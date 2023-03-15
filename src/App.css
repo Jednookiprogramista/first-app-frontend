@@ -1,0 +1,15 @@
+header {
+ background: rgb(19, 61, 169);
+ padding: 5px;
+ color: white;
+ font-family: "Times New Roman", serif;
+ display: flex;
+ justify-content: space-between;
+}
+
+h1 {
+ font-size: 35px ;
+ justify-content: center;
+
+
+}
