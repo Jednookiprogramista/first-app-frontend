@@ -10,10 +10,10 @@ export const  App = () =>  {
   return (
     <>
         <header>
-        <h1>
+        <h1 className={"first-title "}>
             <strong>MyWall</strong>
         </h1>
-            <div className="myprofile" >
+            <div className="my profile" >
                  <button>My profile</button>
 
             </div>

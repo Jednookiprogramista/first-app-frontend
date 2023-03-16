@@ -7,9 +7,26 @@ header {
  justify-content: space-between;
 }
 
-h1 {
+.first-title {
  font-size: 35px ;
- justify-content: center;
+ align-items: center;
+ cursor: pointer;
 
+
+}
+
+button {
+ display: inline-block;
+ padding: 10px 20px;
+ font-size: 18px;
+ font-weight: bold;
+ color: #fff;
+ text-align: center;
+ text-decoration: none;
+ background-color: #808080;
+ border-radius: 5px;
+ border: none;
+ box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+ cursor: pointer;
 
 }
