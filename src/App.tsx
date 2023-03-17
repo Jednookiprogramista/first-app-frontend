@@ -1,23 +1,15 @@
-import React, {useEffect} from 'react';
-
+import React from "react";
 import './App.css'
 
+import { Tittle } from './components/layout/Tittle';
+
+
+
 export const  App = () =>  {
-    useEffect(() => {
-        document.title = "MyWall";
-    }, []);
-
-  return (
+    return (
     <>
-        <header>
-        <h1 className={"first-title "}>
-            <strong>MyWall</strong>
-        </h1>
-            <div className="my profile" >
-                 <button>My profile</button>
+        <Tittle/>
 
-            </div>
-      </header>
     </>
   );
 };
