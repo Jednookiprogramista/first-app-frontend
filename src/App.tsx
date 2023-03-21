@@ -1,14 +1,18 @@
 import React from "react";
 
 
-import { Tittle } from './components/layout/Tittle';
+
+import {Login} from "./components/layout/login/Login";
+
 
 
 
 export const  App = () =>  {
     return (
     <>
-        <Tittle/>
+        <div>
+        <Login/>
+        </div>
 
     </>
   );
