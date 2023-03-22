@@ -26,7 +26,7 @@
 
 .left {
     flex: 1;
-    background:  url("https://img.pixers.pics/pho_wat(s3:700/FO/33/61/77/86/700_FO33617786_11c4ac1c74ba3ab38fd7f1b3e514e7bf.jpg,700,467,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,417,jpg)/carte-da-parati-white-wall.jpg.jpg") ;
+    background:  url("https://target.scene7.com/is/image/Target/GUEST_e5f2537d-1517-4758-be6d-ff9a964e249b?wid=488&hei=488&fmt=pjpeg") ;
     background-size: cover;
     padding: 100px;
     display: flex;
@@ -46,6 +46,11 @@
     font-weight: bolder;
     font-size: 20px;
     color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
 
 
 

@@ -13,10 +13,10 @@ export const Login = () => {
 
                 <p>
                     Hello everyone! <br/><br/>
-                    Welcome to my social media page. <br/>I am thrilled to have you all here with me.<br/>
+                    Welcome to my social media page.I am thrilled to have you all here with me.<br/>
                     This platform is a
-                    place where we can connect, share ideas, and support each other. <br/>
-                    Let's build a positive and engaging community together. <br/>
+                    place where we can connect, share ideas, and support each other.<br/>
+                    Let's build a positive and engaging community together.<br/>
                 </p>
                 <span>Don't you have an account?</span>
                 <button>Register</button>
