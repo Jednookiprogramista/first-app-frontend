@@ -1,0 +1,121 @@
+.register{
+    height: 116vh;
+    background-color: #133DA9FF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+
+}
+
+.card{
+    display: flex;
+    background-color: #100f0f;
+    flex-direction: row-reverse;
+    width: 50%;
+    border-radius: 5px;
+    min-height: 600px;
+    overflow: hidden;
+
+
+
+
+}
+
+
+
+.left {
+    flex: 1;
+    background:  url("https://w0.peakpx.com/wallpaper/184/137/HD-wallpaper-brick-wall-texture-black.jpg") ;
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.left h1 {
+
+    font-size: 50px;
+    color: #ffffff;
+
+
+}
+
+.left  p {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+
+
+
+
+}
+
+.left span {
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.left button {
+    width: 100%;
+    padding: 5px;
+    background-color: #133DA9FF;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+
+}
+
+.right {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right h1{
+    color: black;
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+
+}
+
+.right form input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 10px
+}
+
+.right form button {
+    width: 101%;
+    padding: 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
