@@ -1,5 +1,5 @@
 .login{
-    height: 100vh;
+    height: 108vh;
     background-color: #133DA9FF;
     justify-content: center;
     align-items: center;
@@ -37,12 +37,16 @@
 .left h1 {
 
     font-size: 50px;
+    color: black;
 
 
 }
 
 .left  p {
     font-weight: bolder;
+    font-size: 20px;
+    color: black;
+
 
 
 }
