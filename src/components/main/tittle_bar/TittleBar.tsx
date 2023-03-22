@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
-import './Tiittle.css'
+import './tittleBar.css'
 
-export const Tittle = () => {
+export const TittleBar = () => {
 
     useEffect(() => {
         document.title = "MyWall";
