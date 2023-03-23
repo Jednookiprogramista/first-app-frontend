@@ -1,9 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 import './Register.css'
 import {Link} from "react-router-dom";
 
 export const Register = () => {
+
+    useEffect(() => {
+        document.title = "Welcome on MyWall";
+    }, []);
 
     return (
         <div className={"register"}>

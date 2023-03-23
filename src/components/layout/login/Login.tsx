@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 import './Login.css'
 import {Link} from "react-router-dom";
 
 export const Login = () => {
+    useEffect(() => {
+        document.title = "Welcome on MyWall";
+    }, []);
 
     return (
         <div className={"login"}>
