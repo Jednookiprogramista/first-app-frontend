@@ -1,9 +1,9 @@
 import React from "react";
 
-import './leftSide.css'
+import './leftSideBar.css'
 
 
-export const LeftSide = () => {
+export const LeftSideBar = () => {
 
     return (
         <>

@@ -1,9 +1,9 @@
 import React from "react";
 
-import './rightSide.css'
+import './rightSideBar.css'
 
 
-export const RightSide = () => {
+export const RightSideBar = () => {
 
     return (
         <>
