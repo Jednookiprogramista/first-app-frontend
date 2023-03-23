@@ -9,7 +9,7 @@
 
 }
 
-.card{
+.card2{
     display: flex;
     background-color: #100f0f;
     flex-direction: row-reverse;
@@ -25,7 +25,7 @@
 
 
 
-.left {
+.left2 {
     flex: 1;
     background:  url("https://w0.peakpx.com/wallpaper/184/137/HD-wallpaper-brick-wall-texture-black.jpg") ;
     background-size: cover;
@@ -35,7 +35,7 @@
     gap: 25px;
 }
 
-.left h1 {
+.right-h2 {
 
     font-size: 50px;
     color: #ffffff;
@@ -43,7 +43,7 @@
 
 }
 
-.left  p {
+.right-text {
     font-weight: bolder;
     font-size: 20px;
     color: #ffffff;
@@ -58,14 +58,14 @@
 
 }
 
-.left span {
+.right-span {
     font-size: 15px;
     font-weight: bolder;
     color: white;
 
 }
 
-.left button {
+.right-button {
     width: 100%;
     padding: 5px;
     background-color: #133DA9FF;
@@ -76,7 +76,7 @@
 
 }
 
-.right {
+.right2 {
     flex: 1;
     background-color: white;
     display: flex;
@@ -87,24 +87,24 @@
 
 }
 
-.right h1{
+.right h2{
     color: black;
 }
 
-.right form {
+.left-form {
     display: flex;
     flex-direction: column;
     gap: 50px
 
 }
 
-.right form input {
+.left-input {
     border: none;
     border-bottom: 1px solid lightgray;
     padding: 20px 10px
 }
 
-.right form button {
+.register-button {
     width: 101%;
     padding: 5px;
     background-color: black;

@@ -7,31 +7,31 @@ export const Register = () => {
 
     return (
         <div className={"register"}>
-            <div className="card">
-                <div className="left">
-                    <h1>Your place on the internet!</h1>
+            <div className="card2">
+                <div className="left2">
+                    <h2 className={'right-h2'}>Your place on the internet!</h2>
                     <br/>
 
-                    <p>
+                    <p className={"right-text"}>
 
                         Connect with us to stay up-to-date on our latest products, promotions, and events.<br/><br/>
                         Engage with our community by sharing your thoughts, ideas, and feedback with us.<br/><br/>
 
                     </p>
-                    <span>Do you have an account?</span>
+                    <span className={'right-span'}>Do you have an account?</span>
                     <Link to={'/login'}>
-                    <button>Login</button>
+                    <button className={'right-button'}>Login</button>
                     </Link>
                 </div>
-                <div className="right">
-                    <h1>Register</h1>
-                    <form>
-                        <input type={"text"} placeholder={"Username"}/>
-                        <input type={"email"} placeholder={"Email"}/>
-                        <input type={"text"} placeholder={"Name"}/>
-                        <input type={"password"} placeholder={"Password"}/>
+                <div className="right2">
+                    <h2>Register</h2>
+                    <form className={'left-form'}>
+                        <input type={"text"} placeholder={"Username"} className={'left-input'}/>
+                        <input type={"email"} placeholder={"Email"} className={'left-input'}/>
+                        <input type={"text"} placeholder={"Name"} className={'left-input'}/>
+                        <input type={"password"} placeholder={"Password"} className={'left-input'}/>
                         <br/><br/>
-                        <button>Register</button>
+                        <button className={'register-button'}>Register</button>
                     </form>
                 </div>
             </div>

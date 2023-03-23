@@ -12,13 +12,14 @@ import {
 export const  App = () =>  {
     const router = createBrowserRouter([
         {
+            path: '/registration',
+            element: <Register/>
+        },
+        {
             path: '/login',
             element: <Login/>
         },
-        {
-            path: '/register',
-            element: <Register/>
-        },
+
     ]);
 
 

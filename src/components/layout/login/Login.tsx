@@ -20,7 +20,7 @@ export const Login = () => {
                     Let's build a positive and engaging community together.<br/>
                 </p>
                 <span>Don't you have an account?</span>
-                <Link to={'/register'}>
+                <Link to={'/registration'}>
                 <button>Register</button>
                 </Link>
             </div>
