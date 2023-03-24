@@ -54,6 +54,46 @@ export const LeftSideBar = () => {
                             <VideoLibraryIcon className={'icons'}/>
                             <span className="objects-text">Videos</span>
                         </div>
+                        <div className="objects">
+                            <VideoLibraryIcon className={'icons'}/>
+                            <span className="objects-text">Videos</span>
+                        </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div><div className="objects">
+                        <VideoLibraryIcon className={'icons'}/>
+                        <span className="objects-text">Videos</span>
+                    </div>
 
 
 
