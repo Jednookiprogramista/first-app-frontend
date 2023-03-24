@@ -1,3 +1,100 @@
 .right-side-bar {
     flex:3;
+    position: sticky;
+    top: 53px;
+    height: calc(100vh - 53px);
+    overflow: scroll;
+
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container{
+    padding: 20px;
+
+}
+
+.objects-text-right {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.objects-text{
+    font-size: 15px;
+
+
+}
+
+.object{
+
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.userData{
+    display: flex;
+    align-items: center;
+    gap:20px
+
+}
+
+.img-right-bar{
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.objects-text-right{
+    font-size: 15px;
+
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px
+
+
+
+}
+
+.add-button{
+    background-color:  rgb(19, 61, 169);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.ignore-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.hr-right{
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 1px;
+    background-color: black;
+    width: 417px
+}
+
+
+
+
