@@ -1,32 +1,80 @@
-header {
+.bar {
     background: rgb(19, 61, 169);
-    padding: 5px;
+    padding: 10px 20px;
+    height: 45px;
     color: white;
     font-family: "Times New Roman", serif;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
 }
 
 .first-title {
-    font-size: 35px ;
+    font-size: 50px ;
     align-items: center;
     cursor: pointer;
+    color: white;
+    display: flex;
+    font-weight: bold;
+
+
 
 
 }
 
-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    background-color: #808080;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+.left-tittle {
+    display: flex;
+    align-items: center;
+    gap: 50px;
     cursor: pointer;
+
+
+
+}
+
+.right-tittle {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+
+.search{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 2px;
+
+}
+
+
+
+.search-space{
+    border: none;
+    width: 650px;
+}
+
+.profile-picture{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    gap: 5px;
+
+
+}
+
+.profile {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.my-name{
 
 }
