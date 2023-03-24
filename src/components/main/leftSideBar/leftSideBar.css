@@ -1,0 +1,67 @@
+.left-side-bar{
+flex: 2;
+
+
+}
+
+.container{
+    padding: 20px;
+
+
+}
+
+.objects{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+
+hr {
+    border: 1px solid black;
+   margin-top: 15px;
+    margin-bottom: 15px;
+    height: 1px;
+    background-color: black;
+    width: 179px
+}
+
+
+.menu {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.img-left-bar{
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.icons{
+
+
+
+}
+
+.objects-text{
+    font-size: 15px;
+
+
+
+}
+
+.others{
+
+}
+
+

@@ -27,7 +27,9 @@ export const  App = () =>  {
                 <TittleBar/>
                 <div style={{display: "flex"}}>
                     <LeftSideBar/>
+                    <div style={{flex: 6}}>
                     <Outlet/>
+                    </div>
                     <RightSideBar/>
                 </div>
             </div>
