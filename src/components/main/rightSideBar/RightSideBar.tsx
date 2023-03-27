@@ -52,9 +52,45 @@ export const RightSideBar = () => {
                                 <button className={'ignore-button'}>Ignore</button>
                             </div>
                         </div>
+
                     </div>
-                </div>
+
                 <hr className={'hr-right'}/>
+                <span className={'objects-text-right'}>Latest updates</span>
+                <div className="object">
+
+
+                </div>
+                    <div className="object">
+
+                        <div className="userDataDown">
+                            <img  className="img-right-bar" src={'https://avatars.githubusercontent.com/u/7489790?v=4'} alt={'Profile of your possible friend'}/>
+                            <span className={'objects-text'}> Jakub Król</span>
+                            <p className={'des-color'}>
+                                Add new photo
+                            </p>
+                            <div className='objects-text-right'>
+                                <span className={'timeOfPost'}> 5 min ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="object">
+
+                        <div className="userDataDown">
+                            <img  className="img-right-bar" src={'https://avatars.githubusercontent.com/u/7489790?v=4'} alt={'Profile of your possible friend'}/>
+                            <span className={'objects-text'}> Jakub Król</span>
+                            <p className={'des-color'}>
+                                Add new profile
+                            </p>
+                            <div className='objects-text-right'>
+                                <span className={'timeOfPost'}> 8 min ago</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
             </div>
 
 

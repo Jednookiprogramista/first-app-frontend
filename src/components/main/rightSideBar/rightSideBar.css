@@ -5,6 +5,7 @@
     height: calc(100vh - 53px);
     overflow: scroll;
 
+
 }
 
 ::-webkit-scrollbar {
@@ -23,6 +24,10 @@
 
 .objects-text{
     font-size: 15px;
+    display: flex;
+    align-items: center;
+
+
 
 
 }
@@ -89,7 +94,27 @@
     margin-bottom: 15px;
     height: 1px;
     background-color: black;
-    width: 417px
+    width: 417px;
+
+}
+
+
+.des-color {
+    color: gray;
+    display: inline;
+    align-items: center;
+}
+
+.userDataDown{
+    display: flex;
+    align-items: center;
+    gap: 50px
+
+}
+
+.timeOfPost{
+    display: inline;
+    align-items: center;
 }
 
 
