@@ -14,6 +14,8 @@ export const TittleBar = () => {
         document.title = "MyWall";
     }, []);
 
+
+
     return (
     <header className={'bar'}>
         <div className={'left-tittle'}>
@@ -23,6 +25,7 @@ export const TittleBar = () => {
         </h3>
         </Link>
             <HomeIcon/>
+
             <DarkModeIcon/>
             <div className="search">
                 <SearchIcon/>
@@ -36,7 +39,7 @@ export const TittleBar = () => {
             <AccountBoxIcon/>
             <div className="profile-picture">
 
-                <img  className={'profile'} src={"https://avatars.githubusercontent.com/u/98560465?v=4"} alt={'My profile picture '}/>
+                <img  className={'profile'} src={"https://avatars.githubusercontent.com/u/98560465?v=4"} alt={'Main profile'}/>
             </div>
             <span className={'my-name'}> Bruno Braghieri  </span>
         </div>

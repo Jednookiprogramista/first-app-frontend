@@ -56,8 +56,10 @@ export const RightSideBar = () => {
                     </div>
 
                 <hr className={'hr-right'}/>
+
                 <span className={'objects-text-right'}>Latest updates</span>
-                <div className="object">
+                    <br/><br/>
+                    <div className="object">
 
 
                 </div>
