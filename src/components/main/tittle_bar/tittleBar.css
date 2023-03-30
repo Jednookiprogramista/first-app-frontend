@@ -1,5 +1,6 @@
 
 .bar {
+
     background: rgb(19, 61, 169);
     padding: 10px 20px;
     height: 45px;
@@ -64,6 +65,7 @@
 }
 
 .profile-picture{
+
     display: flex;
     align-items: center;
     font-weight: 400;
@@ -78,4 +80,5 @@
     height: 30px;
     border-radius: 50%;
 }
+
 

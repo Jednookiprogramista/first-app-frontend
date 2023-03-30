@@ -16,14 +16,21 @@ import {Profile} from "./components/layout/profile/Profile"
 
 
 
+
+
+
+
+
 export const  App = () =>  {
 
     const nowUser = true;    // true to see the home page to in.Feature made in order to don't show home after
 
 
     const Layout = () => {
+
         return(
-            <div>
+
+            <div >
                 <TittleBar/>
                 <div style={{display: "flex"}}>
                     <LeftSideBar/>
@@ -33,6 +40,7 @@ export const  App = () =>  {
                     <RightSideBar/>
                 </div>
             </div>
+
         )
     }
 

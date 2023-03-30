@@ -8,11 +8,18 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 
 
 
+
+
+
+
+
+
 export const TittleBar = () => {
 
     useEffect(() => {
         document.title = "MyWall";
     }, []);
+
 
 
 
@@ -25,8 +32,7 @@ export const TittleBar = () => {
         </h3>
         </Link>
             <HomeIcon/>
-
-            <DarkModeIcon/>
+            <DarkModeIcon />
             <div className="search">
                 <SearchIcon/>
                 <input className={'search-space'} type={"text"} placeholder={'Search'}/>
