@@ -42,13 +42,30 @@ export const TittleBar = () => {
         </div>
 
         <div className={'right-tittle'}>
+
             <AccountBoxIcon/>
+
             <div className="profile-picture">
 
+
+                <span className={'my-name'}> Bruno Braghieri  </span>
+
+
+                <div className={'green-circle'}/>
                 <img  className={'profile'} src={"https://avatars.githubusercontent.com/u/98560465?v=4"} alt={'Main profile'}/>
+
             </div>
-            <span className={'my-name'}> Bruno Braghieri  </span>
+
+
+
+
+
+
+
+
         </div>
+
+
 
 
     </header>

@@ -13,6 +13,7 @@
     position: sticky;
     top: 0;
 
+
 }
 
 .first-title {
@@ -22,6 +23,7 @@
     color: white;
     display: flex;
     font-weight: bold;
+
 
 
 
@@ -36,6 +38,7 @@
 
 
 
+
 }
 
 .right-tittle {
@@ -43,6 +46,9 @@
     align-items: center;
     gap: 20px;
     cursor: pointer;
+
+
+
 
 }
 
@@ -55,6 +61,7 @@
     padding: 2px;
     border-radius: 2px;
 
+
 }
 
 
@@ -62,6 +69,7 @@
 .search-space{
     border: none;
     width: 650px;
+
 }
 
 .profile-picture{
@@ -70,6 +78,11 @@
     align-items: center;
     font-weight: 400;
     gap: 5px;
+    position: relative;
+
+
+
+
 
 
 }
@@ -79,6 +92,26 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
+
+
+
+
+
+
 }
 
+
+
+.green-circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: lime;
+
+    top: 18px;
+    left: 140px;
+    position: absolute;
+
+
+}
 
