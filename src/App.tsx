@@ -10,7 +10,7 @@ import {Login} from "./components/layout/login/Login";
 import {TittleBar} from "./components/main/tittle_bar/TittleBar";
 import {LeftSideBar} from "./components/main/leftSideBar/LeftSideBar";
 import {RightSideBar} from "./components/main/rightSideBar/RightSideBar";
-import {Home} from "./components/layout/home/Home"
+import {Home} from "./components/main/home/Home"
 import {Profile} from "./components/layout/profile/Profile"
 
 
