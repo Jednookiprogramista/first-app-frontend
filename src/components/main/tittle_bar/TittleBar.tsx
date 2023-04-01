@@ -1,10 +1,12 @@
-import React, {useEffect} from 'react';
+import React, {useContext, useEffect} from 'react';
 import './tittleBar.css'
 import HomeIcon from '@mui/icons-material/Home';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import SearchIcon from '@mui/icons-material/Search';
 import { Link } from 'react-router-dom';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import {Authentication} from "../authentication/authentication";
+
 
 
 
@@ -22,7 +24,15 @@ export const TittleBar = () => {
 
 
 
+    const {currUser} :any  = useContext(Authentication)
 
+    //TODO
+
+
+
+
+
+    // @ts-ignore
     return (
     <header className={'bar'}>
         <div className={'left-tittle'}>
@@ -48,12 +58,11 @@ export const TittleBar = () => {
             <div className="profile-picture">
 
 
-                <span className={'my-name'}> Bruno Braghieri  </span>
+                <span className={'my-name'}> {currUser.name}  </span>
 
 
                 <div className={'green-circle'}/>
-                <img  className={'profile'} src={"https://avatars.githubusercontent.com/u/98560465?v=4"} alt={'Main profile'}/>
-
+                <img  className={'profile'} src={currUser.profilePicture} alt={'Main profile'}/>
             </div>
 
 

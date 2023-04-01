@@ -4,13 +4,17 @@ import { App } from './App';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
+import {AuthenticationProvider} from "./components/main/authentication/authentication";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
+
+      <AuthenticationProvider>
     <App />
+      </AuthenticationProvider>
   </React.StrictMode>
 );
 

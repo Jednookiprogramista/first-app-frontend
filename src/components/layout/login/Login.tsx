@@ -1,12 +1,24 @@
-import React, {useEffect} from "react";
+import React, {useContext, useEffect} from "react";
 
 import './Login.css'
 import {Link} from "react-router-dom";
+import {Authentication} from "../../main/authentication/authentication";
 
 export const Login = () => {
     useEffect(() => {
         document.title = "Welcome on MyWall";
-    }, []);
+
+        }, []);
+
+
+
+    const {login}   = useContext(Authentication);
+
+
+
+    const accessLogin = ()  => {
+        login();
+    }
 
     return (
         <div className={"login"}>
@@ -33,7 +45,7 @@ export const Login = () => {
                         <input type={"text"} placeholder={"Username"}/>
                         <input type={"password"} placeholder={"Password"}/>
                         <br/><br/>
-                        <button>Login</button>
+                        <button onClick={accessLogin}>Login</button>
                     </form>
                 </div>
             </div>

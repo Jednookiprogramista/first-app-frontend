@@ -1,101 +1,88 @@
 import {
     createBrowserRouter,
     RouterProvider,
-    Outlet, Navigate,
+    Outlet,
+    Navigate,
 } from "react-router-dom";
+import React, { useContext } from "react";
+import { Register } from "./components/layout/register/Register";
+import { Login } from "./components/layout/login/Login";
+import { TittleBar } from "./components/main/tittle_bar/TittleBar";
+import { LeftSideBar } from "./components/main/leftSideBar/LeftSideBar";
+import { RightSideBar } from "./components/main/rightSideBar/RightSideBar";
+import { Home } from "./components/main/home/Home";
+import { Profile } from "./components/layout/profile/Profile";
+import { Authentication } from "./components/main/authentication/authentication";
 
-import React from "react";
-import {Register} from "./components/layout/register/Register";
-import {Login} from "./components/layout/login/Login";
-import {TittleBar} from "./components/main/tittle_bar/TittleBar";
-import {LeftSideBar} from "./components/main/leftSideBar/LeftSideBar";
-import {RightSideBar} from "./components/main/rightSideBar/RightSideBar";
-import {Home} from "./components/main/home/Home"
-import {Profile} from "./components/layout/profile/Profile"
+export const App = (): JSX.Element => {
+    const { nowUser }: any = useContext(Authentication);
 
-
-
-
-
-
-
-
-
-export const  App = () =>  {
-
-    const nowUser = true;    // true to see the home page to in.Feature made in order to don't show home after
-
-
-    const Layout = () => {
-
-        return(
-
-            <div >
-                <TittleBar/>
-                <div style={{display: "flex"}}>
-                    <LeftSideBar/>
-                    <div style={{flex: 6}}>
-                    <Outlet/>
+    const Layout = (): JSX.Element => {
+        return (
+            <div>
+                <TittleBar />
+                <div style={{ display: "flex" }}>
+                    <LeftSideBar />
+                    <div style={{ flex: 6 }}>
+                        <Outlet />
                     </div>
-                    <RightSideBar/>
+                    <RightSideBar />
                 </div>
             </div>
+        );
+    };
 
-        )
-    }
+    type SecureRouteProps = {
+        children:
+            | boolean
+            | JSX.Element
+            | Element
+            | React.ReactFragment
+            | null
+            | undefined;
+    };
 
-    type Props = {
-        children: any
-        //  had problems to define the type of children due to SecureRoute
-        //  boolean | JSX.Element | Element | ReactFragment | null | undefined
-
-    }
-    const SecureRoute = ({children}: Props) => {
-        if(!nowUser) {
-            return <Navigate to={'/login'}/>
+    const SecureRoute = ({ children }: SecureRouteProps): JSX.Element => {
+        if (nowUser) {   //TODO ! to dont show page
+            return <Navigate to={"/login"} />;
         }
-        return children
-    }
+        return children as JSX.Element;
+    };
 
     const router = createBrowserRouter([
         {
-            path: '/',
-            element: (<SecureRoute> <Layout/> </SecureRoute>),
+            path: "/",
+            element: (
+                <SecureRoute>
+                    <Layout />
+                </SecureRoute>
+            ),
             children: [
                 {
-                    path:'/',
-                    element: <Home/>
+                    path: "/",
+                    element: <Home />,
                 },
                 {
-                    path:'/profile/:id',
-                    element: <Profile/>
-                }
-            ]
-        },
-
-
-        {
-            path: '/login',
-            element: <Login/>
+                    path: "/profile/:id",
+                    element: <Profile />,
+                },
+            ],
         },
         {
-            path: '/registration',
-            element: <Register/>
+            path: "/login",
+            element: <Login />,
         },
-
-
+        {
+            path: "/registration",
+            element: <Register />,
+        },
     ]);
 
-
     return (
-    <>
-
-        <div>
-
-        <RouterProvider router={router}/>
-
-        </div>
-
-    </>
-  );
+        <>
+            <div>
+                <RouterProvider router={router} />
+            </div>
+        </>
+    );
 };
