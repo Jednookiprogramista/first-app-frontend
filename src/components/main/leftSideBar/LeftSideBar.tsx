@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 
 import './leftSideBar.css'
 import PeopleIcon from '@mui/icons-material/People';
@@ -8,18 +8,19 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import EmailIcon from '@mui/icons-material/Email';
 import ImageIcon from '@mui/icons-material/Image';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
+import {Authentication} from "../authentication/authentication";
 
 
 export const LeftSideBar = () => {
-
+    const {currUser} :any  = useContext(Authentication)
     return (
         <>
             <div className="left-side-bar">
                 <div className="container">
                     <div className="menu">
                         <div className="objects">
-                            <img  className={'img-left-bar'} src={"https://avatars.githubusercontent.com/u/98560465?v=4"} alt={'My profile picture '}/>
-                            <span className="objects-text">Bruno Braghieri</span>
+                            <img  className={'img-left-bar'} src={currUser.profilePicture} alt={'user '}/>
+                            <span className="objects-text">{currUser.name}</span>
                         </div>
                         <div className="objects">
                             <PeopleIcon className={'icons'}/>
