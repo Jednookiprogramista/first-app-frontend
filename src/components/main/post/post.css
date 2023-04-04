@@ -23,8 +23,7 @@
 .user__{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border-radius: 20px;
+    justify-content: space-between
 
 }
 
