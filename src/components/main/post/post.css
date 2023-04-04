@@ -3,7 +3,7 @@
 
     border-radius: 20px;
     max-width: 800px;
-    max-height: 500px;
+    height: auto;
 
     -webkit-box-shadow: 0 0 25px -10px black;
     -moz-box-shadow: 0 0 25px -10px black;
@@ -23,7 +23,8 @@
 .user__{
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    border-radius: 20px;
 
 }
 
@@ -89,6 +90,7 @@
 
 .object__{
     display: flex;
+    margin: 30px;
     align-items: center;
     gap:40px;
     font-weight: bold;
@@ -100,7 +102,7 @@
 
 }
 
-.information{
+.information__{
     display: flex;
     align-items: center;
     gap: 20px;

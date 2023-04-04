@@ -32,7 +32,7 @@ export const TittleBar = () => {
 
 
 
-    // @ts-ignore
+
     return (
     <header className={'bar'}>
         <div className={'left-tittle'}>
