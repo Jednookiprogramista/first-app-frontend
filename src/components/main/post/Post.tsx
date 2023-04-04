@@ -29,7 +29,6 @@ export const Post = ({ post }: PostProps) => {
                     </Link>
                     <span className={'time__'}> 5 min ago</span>
                 </div>
-
             </div>
                     <MoreHorizIcon/>
                 </div>
