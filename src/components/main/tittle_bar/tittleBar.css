@@ -34,7 +34,7 @@
 .left-tittle {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 67px;
     cursor: pointer;
 
 
@@ -69,7 +69,8 @@
 
 .search-space{
     border: none;
-    width: 650px;
+    width: 660px;
+
 
 }
 

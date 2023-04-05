@@ -41,11 +41,11 @@ export const TittleBar = () => {
             <strong>MyWall</strong>
         </h3>
         </Link>
-            <HomeIcon/>
+
             <DarkModeIcon />
             <div className="search">
                 <SearchIcon/>
-                <input className={'search-space'} type={"text"} placeholder={'Search'}/>
+                <input className={'search-space'} type={"text"} placeholder={'Search'} />
             </div>
 
 
