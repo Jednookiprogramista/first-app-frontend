@@ -57,7 +57,7 @@ export const Profile = () => {
                                     <span className={'basic-info-text'}>I Liceum  im. Tadeusza Kościuszki w Koninie</span>
                                     <Diversity1Icon fontSize={'medium'}/>
                                     <span className={'basic-info-text'}>In relationship</span>
-                                    <button className={'profile-button'}>Add do friend</button>
+                                    <button className={'profile-button'}>Add do friends</button>
                                 </div>
 
                             </div>
