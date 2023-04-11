@@ -49,8 +49,10 @@ export const Profile = () => {
                             <span className={'profile-name'} >Bruno Braghieri</span>
                             <div className="profile--">
                                 <div className="basic-info">
+
                                     <MyLocationIcon   fontSize={'medium'}/>
                                     <span className={'basic-info-text'}>Poznań,Poland</span>
+
                                     <WorkIcon fontSize={'medium'}/>
                                     <span className={'basic-info-text'}>Armatis</span>
                                     <SchoolIcon fontSize={'medium'}/>

@@ -9,7 +9,7 @@ import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import {Comments} from "../../common/comments/Comments";
 
-interface PostProps {
+export interface PostProps {
     post: PostBuild;
 }
 
@@ -30,6 +30,7 @@ export const Post = ({ post }: PostProps) => {
                         <span className={'name__'}>{post.name}</span>
 
                     </Link>
+
                     <span className={'time__'}> 15 min ago</span>
                 </div>
             </div>

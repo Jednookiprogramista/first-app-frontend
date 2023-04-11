@@ -47,7 +47,8 @@
     -moz-box-shadow: 0 0 25px -10px black;
     box-shadow: 0 0 25px -10px black;
     padding: 50px;
-    position: relative;
+    position: absolute;
+    
     width: 700px;
     display: flex;
     align-items: center;
@@ -74,6 +75,9 @@
     gap: 50px;
 
 
+
+
+
 }
 
 
@@ -88,6 +92,7 @@
 
 
 
+
 }
 
 .basic-info-text{
@@ -95,6 +100,7 @@
     align-items: center;
     gap: 20px;
     color: black;
+
 
 
 }
@@ -123,9 +129,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
-
     gap: 20px;
+    cursor: pointer;
+    text-decoration: none;
 
 
 }

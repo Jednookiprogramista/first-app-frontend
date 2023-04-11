@@ -20,6 +20,7 @@ export const LeftSideBar = () => {
                     <div className="menu">
                         <div className="objects">
                             <img  className={'img-left-bar'} src={currUser.profilePicture} alt={'user '}/>
+
                             <span className="objects-text">{currUser.name}</span>
                         </div>
                         <div className="objects">
