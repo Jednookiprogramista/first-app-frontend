@@ -1,11 +1,10 @@
 import React, {useContext, useEffect} from 'react';
 import './tittleBar.css'
-// import DarkModeIcon from '@mui/icons-material/DarkMode';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
 import SearchIcon from '@mui/icons-material/Search';
 import { Link } from 'react-router-dom';
-// import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import {Authentication} from "../authentication/authentication";
-
 
 
 
@@ -41,7 +40,7 @@ export const TittleBar = () => {
         </h3>
         </Link>
 
-            {/*<DarkModeIcon />*/}
+            <DarkModeIcon />
             <div className="search">
                 <SearchIcon/>
                 <input className={'search-space'} type={"text"} placeholder={'Search'} />
@@ -52,7 +51,7 @@ export const TittleBar = () => {
 
         <div className={'right-tittle'}>
 
-            {/*<AccountBoxIcon/>*/}
+            <AccountBoxIcon/>
 
             <div className="profile-picture">
 
