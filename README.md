@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+### Introduction 👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+Welcome to my social media app **MyWall**, created using cutting-edge technologies such as TS, React, Express.js, Node.js, and MySQL. The premise of the application allows users to easily register and log in, with seamless access to features such as adding posts, comments, and friends all on the same page. These technologies enable the app to perform quickly, efficiently, and with ease of maintenance, ensuring an exceptional user experience.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Tech stack 🦾
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* TypeScript (TS)
 
-### `npm test`
+* React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Express.js
 
-### `npm run build`
+* Node.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* MySQL
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Screenshots and gif from app. 📷
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Gif
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![](C:\Users\Admin\Desktop\first-app\Animation.gif)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Registration
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![](C:\Users\Admin\Desktop\first-app\registration.PNG)
 
-## Learn More
+Login
+![](C:\Users\Admin\Desktop\first-app\login.PNG)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Home
+![](C:\Users\Admin\Desktop\first-app\home.PNG)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Comments
+
+![](C:\Users\Admin\Desktop\first-app\comments.PNG)
+
+Profile
+![](C:\Users\Admin\Desktop\first-app\profile.PNG)
+![](C:\Users\Admin\Desktop\first-app\profile2.PNG)
+
+
+### What did I do and what didn't. 🤔
+
+It took me a lot of time to work on the front-end to make the website look its best, including attempts to create a dark mode for the entire site. Unfortunately, I had to postpone this feature, so I focused on configuring the back-end with routes and controllers. At the moment, I'm working hard to enable users to log in and register on the site. I am also adding a README.md to describe my experience with this project, as I need to submit it on time.
+
+**I will continue working on the project until it is 100% functional.**
+
+### How to run the project? 🚂
+
+**Front-end -----------> npm start**
+
+**Back-end ------------>start: ts-node index.ts**
+
+**Back-end ------------>start:dev: tsnd index.ts**
+
+
+### Contact me📞
+
+LinkedIn: https://www.linkedin.com/in/bruno-braghieri/
+
+E-mail: bvbrunik@gmail.com
+
